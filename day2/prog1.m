@@ -1,0 +1,24 @@
+% find the maximum and minimum from 2d and 3d array
+A = [
+    1 2 3;
+    4 5 6;
+    7 8 9
+    ];
+display(max(max(A))); % 2D
+display(min(min(A))); % 2D
+
+B = [
+     100 2 3;
+     4 5 6;
+     7 8 90
+    ];
+B(:,:,1) = [
+            10 11 12;
+            13 14 15;
+            16 17 18
+            ];
+B(:,:,2) = [
+            19 20 21;
+            22 23 24;
+            25 26 27
+            ];

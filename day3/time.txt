@@ -1,0 +1,2 @@
+To measure time, refer docs
+timeit func may be useful
