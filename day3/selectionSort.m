@@ -2,7 +2,7 @@ function [ x ] = selectionSort( x )
 %SELECTIONSORT
 %   Given an 1D array, sort the array elements using selection sort method
     n=size(x,2);
-    for i=1:n
+    for i=1:(n-1)
         temp=x(1,i);
         minIndex=i;
         for j=(i+1):n

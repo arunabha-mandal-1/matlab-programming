@@ -7,19 +7,19 @@ function [ dim ] = q8Img( img )
     % for r
     figure(1);
     R=x(:,:,1);
-    histogram(R);
+    histogram(R, 'FaceColor','r');
     legend('Red');
     
     % for g
     figure(2);
     G=x(:,:,2);
-    histogram(G);
+    histogram(G, 'FaceColor','g');
     legend('Green');
     
     % for r
     figure(3);
     B=x(:,:,3);
-    histogram(B);
+    histogram(B, 'FaceColor','b');
     legend('Blue');
 
 end
