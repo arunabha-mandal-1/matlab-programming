@@ -26,4 +26,4 @@ else
     end
 end    
 
-fprintf('Largest among three numbers is %d\n', max);
+fprintf('The largest among three numbers is %d\n', max);

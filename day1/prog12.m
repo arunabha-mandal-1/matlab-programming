@@ -3,6 +3,10 @@
 prompt = 'Enter the number : ';
 x=input(prompt);
 
+if x<0
+    fprintf('Enter number greater than equal to zero.\n');
+    return;
+end
 n=x;
 fact=1;
 while n>0
