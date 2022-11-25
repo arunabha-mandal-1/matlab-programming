@@ -7,18 +7,20 @@ A = [
 display(max(max(A))); % 2D
 display(min(min(A))); % 2D
 
-B = [
-     100 2 3;
-     4 5 6;
-     7 8 90
-    ];
-B(:,:,1) = [
-            10 11 12;
-            13 14 15;
-            16 17 18
-            ];
-B(:,:,2) = [
-            19 20 21;
-            22 23 24;
-            25 26 27
-            ];
+r=size(A,1);
+c=size(A,2);
+max = A(1,1);
+min =A(1,1);
+
+for i=1:r
+    for j=1:c
+        if A(i,j)>max
+            max=A(i,j);
+        end
+        if A(i,j)<min
+            min=A(i,j);
+        end
+    end
+end
+display(max);
+display(min);

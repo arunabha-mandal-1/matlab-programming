@@ -14,3 +14,4 @@ hold on;
 plot(x,y2,'r');
 xlabel('x');
 ylabel('y');
+legend('y=4*x^2 + 2*x + 8','y=4*x^2 + 2*x^(1/2) + 8');

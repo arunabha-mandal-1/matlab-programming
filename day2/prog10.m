@@ -6,7 +6,12 @@ Y=round(20*rand(4,5));
 Z=X*Y;
 figure(1);
 bar3(Z);
+title('Z=X*Y');
+
 figure(2);
 bar3(X);
+title('X');
+
 figure(3);
 bar3(Y);
+title('Y');

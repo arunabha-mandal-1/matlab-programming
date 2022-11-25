@@ -9,3 +9,4 @@ end
 plot(i,v,'b');
 xlabel('current');
 ylabel('voltage');
+legend('V=IR');

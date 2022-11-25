@@ -8,3 +8,4 @@ end
 plot(x,y);
 xlabel('x');
 ylabel('y');
+legend('y=2*x^2 + 3*x + 5');

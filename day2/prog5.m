@@ -10,5 +10,7 @@ end
 
 subplot(1,2,1);
 plot(x,y1,'r');
+legend('y=x^log(x)');
 subplot(1,2,2);
 plot(x,y2,'b');
+legend('y=x^(2*log(x))');
