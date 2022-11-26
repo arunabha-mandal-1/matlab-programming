@@ -10,8 +10,10 @@ function [ x ] = selectionSort( x )
                 minIndex=j;
             end
         end
-        x(1,i)=x(1,minIndex);
-        x(1,minIndex)=temp;
+        if minIndex~=i
+            x(1,i)=x(1,minIndex);
+            x(1,minIndex)=temp;
+        end
     end
 end
 

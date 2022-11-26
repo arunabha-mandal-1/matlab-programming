@@ -1,7 +1,6 @@
 function [ result ] = expo( base, power )
-%EXPO - to implement exponential function
-%   calculating exponential function given base and power
-%   Inf = infinite
+    % calculating exponential function, taking base and power as function
+    % arguments
     result=base.^power; % using dot in case we have to return a vector
 end
 

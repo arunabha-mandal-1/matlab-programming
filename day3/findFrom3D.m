@@ -1,7 +1,7 @@
 function [ row, col, height ] = findFrom3D( X , key)
-%FINDFROM3D finds a element in 3D array
-%   If the element exists in the 3D array, this function returns position
-%   otherwise it returns (-1,-1,-1)
+    %finding element in 3D array
+    %If the element exists in the 3D array, this function returns first position
+    %otherwise it returns (-1,-1,-1)
     row=-1;
     col=-1;
     height=-1;
@@ -16,6 +16,7 @@ function [ row, col, height ] = findFrom3D( X , key)
                     row=j;
                     col=k;
                     height=i;
+                    return;
                 end
             end
         end

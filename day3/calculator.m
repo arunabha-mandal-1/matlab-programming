@@ -1,5 +1,5 @@
 function answer = calculator(a,b,operator)
-   % creating calculator program given two operand and a operator
+   % creating calculator program, taking two operand and a operator(command)
    if(strcmp(operator,'sum'))
        answer = a+b;
    elseif(strcmp(operator, 'subtract'))

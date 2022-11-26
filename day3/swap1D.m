@@ -1,6 +1,5 @@
 function [ x ] = swap1D( x,a,b )
-%SWAP1D swap values of array
-%   Swap values of the 1D array as per user specied position
+    % Swapping values of the 1D array as per user specified position
     if (a<1) || (b<1)
         fprintf('Enter positive index(>0)\n');
         return;

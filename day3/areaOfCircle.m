@@ -1,5 +1,5 @@
 function [ a ] = areaOfCircle( r )
-    % calculating area of a circle given the radius of the circle
+    % calculating area of a circle, radius is taken from user
     if r<0
         fprintf('Radius cannot be negative.\n');
         return;

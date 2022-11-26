@@ -1,5 +1,5 @@
 function isArmstrong( num )
-%ISARMSTRONG => check whether a number is an armstrong number
+    % checking whether a number is an armstrong number
     sum=0;
     temp=num;
     while(temp>0)

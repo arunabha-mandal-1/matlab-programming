@@ -1,7 +1,5 @@
 function [ myMin, myMax ] = minMax4D( X )
-%MINMAX4D finds minimum and maximum element from a 4D array 
-    %r=size(X,1);
-    %c=size(X,2);
+    % finding minimum and maximum element from a 4D array 
     h=size(X,3);
     fourD=size(X,4);
     
