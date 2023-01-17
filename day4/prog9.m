@@ -5,5 +5,5 @@ figure(1);
 imshow(a);
 
 figure(2);
-b=imcrop(a,[67 59 243 205]);
+b=imcrop(a,[80 58 200 181]);
 imshow(b);

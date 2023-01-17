@@ -1,3 +1,3 @@
 % read and display an image
-a=imread('img1.jpg');
+a=imread('sun.jpeg');
 imshow(a);

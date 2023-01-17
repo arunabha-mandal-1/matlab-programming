@@ -1,13 +1,12 @@
-%sum of n natural numbers
-
-prompt = 'Enter n : ';
+% sum of n natural numbers
+prompt='Enter n: ';
 n=input(prompt);
-sum=0;
 if n<1
-    fprintf('Enter number greater than %d\n', 0);
+    fprintf('Enter number greater than 0.\n');
     return;
 end
+sum=0;
 for i=1:n
-    sum = sum + i;
+    sum=sum+i;
 end
 fprintf('Sum = %d\n', sum);

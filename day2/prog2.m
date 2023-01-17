@@ -1,4 +1,4 @@
-% plot y=2*x^2 + 3*x + 5 where 
+% plot y=2*x^2 + 3*x + 5 where 0<=x<=10
 x=0:10;
 y=zeros(1,11);
 

@@ -1,4 +1,4 @@
-function[a,binary,thresold] = prog8(img)
+function prog8(img)
 % PROG8 to convert gray scale image into binary image based on user input
     a=imread(img);
     [x, y, z]=size(a);
@@ -24,4 +24,5 @@ function[a,binary,thresold] = prog8(img)
             end
         end
     end
+    imshow(binary);
 end

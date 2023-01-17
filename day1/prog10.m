@@ -1,9 +1,9 @@
 % sum of n input
 prompt = 'How many numbers you want to add : ';
-x=input(prompt);
+n=input(prompt);
 sum=0;
 
-for i=1:x
+for i=1:n
     str='Enter number : ';
     y=input(str);
     sum=sum+y;

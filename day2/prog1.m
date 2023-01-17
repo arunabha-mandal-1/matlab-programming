@@ -10,7 +10,7 @@ display(min(min(A))); % 2D
 r=size(A,1);
 c=size(A,2);
 max = A(1,1);
-min =A(1,1);
+min = A(1,1);
 
 for i=1:r
     for j=1:c

@@ -4,7 +4,7 @@ prompt1 = 'Enter 1st number : ';
 x=input(prompt1);
 prompt2 = 'Enter 2nd number : ';
 y=input(prompt2);
-prompt3 = 'Enter 2nd number : ';
+prompt3 = 'Enter 3rd number : ';
 z=input(prompt3);
 
 if x>y

@@ -4,8 +4,8 @@ a=imread('sun.jpeg');
 
 % color to gray scale
 b=rgb2gray(a);
-%figure(1);
-%imhist(b);
+figure(1);
+imhist(b);
 %imtool(b,[]);
 
 % gray scale to binary
