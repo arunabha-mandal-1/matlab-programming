@@ -1,5 +1,0 @@
-function prog9a(img, dim1, dim2, dim3)
-    im=imread(img);
-    imr=imres(im, dim1, dim2, dim3);
-    imshow(imr);
-end
